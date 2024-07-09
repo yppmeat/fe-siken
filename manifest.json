@@ -1,0 +1,23 @@
+{
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.fe-siken.com/*",
+        "https://www.ap-siken.com/*",
+        "https://www.sc-siken.com/*",
+        "https://www.nw-siken.com/*",
+        "https://www.sg-siken.com/*",
+        "https://www.db-siken.com/*",
+        "https://www.pm-siken.com/*",
+        "https://www.itpassportsiken.com/*"
+      ],
+      "js": [
+        "remove.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 3,
+  "name": "ドットコムエンチャンター",
+  "version": "1.0"
+}
